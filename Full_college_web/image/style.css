@@ -1,0 +1,384 @@
+/*=============================
+    GOOGLE FONT
+=============================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#edf3fb;
+    color:#222;
+    line-height:1.5;
+}
+
+/*=============================
+        HEADER
+=============================*/
+
+.top-header{
+
+    position:relative;
+
+    background:linear-gradient(135deg,#0c4ea2,#0d63c8);
+
+    padding:45px 20px;
+
+    overflow:hidden;
+
+}
+
+.top-header::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:350px;
+
+    height:350px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.08);
+
+    top:-120px;
+
+    left:-100px;
+
+}
+
+.top-header::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:280px;
+
+    height:280px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.05);
+
+    right:-60px;
+
+    bottom:-120px;
+
+}
+
+.header-container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+   
+
+}
+
+.logo{
+
+    width:120px;
+
+    height:120px;
+
+    background:#fff;
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.18);
+
+}
+
+.logo img{
+
+    width:85px;
+     border-radius:25%;
+
+}
+
+.college-info{
+
+    color:#fff;
+
+}
+
+.college-info h1{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+}
+
+.college-info h3{
+
+    margin-top:8px;
+
+    font-size:18px;
+
+    color:#FFD24C;
+
+}
+
+.college-info p{
+
+    margin-top:10px;
+
+    font-size:15px;
+
+    opacity:.9;
+
+}
+
+/*=============================
+        MAIN SECTION
+=============================*/
+
+.main-section{
+
+    max-width:1200px;
+
+    margin:50px auto;
+
+    padding:0 20px;
+
+}
+
+.form-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 45px rgba(0,0,0,.12);
+
+}
+
+/*=============================
+        TITLE
+=============================*/
+
+.form-title{
+
+    background:#0c4ea2;
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:22px;
+
+}
+
+.form-title i{
+
+    font-size:30px;
+
+}
+
+.form-title h2{
+
+    font-size:28px;
+
+    letter-spacing:1px;
+
+}
+
+/*=============================
+        SECTION TITLE
+=============================*/
+
+.section-title{
+
+    background:#f6f8fc;
+
+    color:#0c4ea2;
+
+    font-size:22px;
+
+    font-weight:600;
+
+    padding:18px 30px;
+
+    border-left:8px solid #f7b500;
+
+    margin-top:30px;
+
+}
+
+/*=============================
+        FORM
+=============================*/
+
+form{
+
+    padding:35px;
+
+}
+
+/*=============================
+        GRID
+=============================*/
+
+.form-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+    margin-top:30px;
+
+}
+
+/*=============================
+        FORM GROUP
+=============================*/
+
+.form-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.form-group label{
+
+    margin-bottom:10px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+
+.form-group span{
+
+    color:red;
+
+}
+
+/*=============================
+        INPUT
+=============================*/
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #d9d9d9;
+
+    border-radius:10px;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.35s;
+
+    background:#fff;
+
+}
+
+.form-group textarea{
+
+    resize:none;
+
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+
+    border-color:#0c4ea2;
+
+    box-shadow:0 0 12px rgba(12,78,162,.2);
+
+}
+
+/*=============================
+        ADDRESS
+=============================*/
+
+.address-box{
+
+    margin-top:25px;
+
+}
+
+/*=============================
+        GENDER
+=============================*/
+
+.gender{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+    margin-top:10px;
+
+}
+
+.gender label{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    cursor:pointer;
+
+    font-weight:500;
+
+}
+
+.gender input{
+
+    width:18px;
+
+    height:18px;
+
+}
